@@ -6,7 +6,7 @@ const Product = ({val , mover , count }) => {
     <div className='w-full py-6 text-white h-[18rem]'>
         <div onMouseEnter={() => {
             mover(count) 
-        }} className='container mx-auto flex items-center justify-between px-2 lg:px-8 rounded-xl lg:h-60 py-4 lg:py-2 hover:bg-red-300 focus:bg-slate-800'>
+        }} className='container mx-auto flex items-center justify-between px-2 lg:px-8 rounded-xl h-40 my-4 lg:h-60 py-4 lg:py-2'>
             <h1 className='text-xl lg:text-3xl font-semibold capitalize'>{val.title}</h1>
             <div className='dets w-1/3'>
                 <p className='mb-6 text-md'>{val.description}</p>
