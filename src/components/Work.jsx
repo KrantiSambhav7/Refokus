@@ -85,7 +85,6 @@ function Work() {
         <h1 className='mt-60 lg:mt-0 text-[40vw] lg:text-[30vw] leading-none font-medium select-none background-text text-transparent  text-red-500'>
         work
         </h1>
- 
             <div className='absolute top-0 w-full h-full'>
                 {images.map( (item , index) => (
                     item.isActive && <img className='absolute h-40 w-40 lg:h-60 object-cover lg:w-60 rounded-md -translate-x-1/2 -translate-y-1/2' style={{ top: item.top, left: item.left }} src={item.url} alt="" />
