@@ -15,8 +15,8 @@ const Footer = () => {
                     ))}
                 </div>
 
-                <div  className=' basis-1/4'>
-                    <h1 className='mb-10 underline'>Socials</h1>
+                <div  className='hidden lg:block basis-1/4'>
+                    <h1 className='mb-10 underline '>Socials</h1>
                     {["Instagram" , "Twitter" , "LinkedIn"].map((item , index) => (
                         <a className='block mt-3 capitalise' href="">{item}</a>
                     ))}

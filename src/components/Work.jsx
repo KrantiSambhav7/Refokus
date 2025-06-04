@@ -82,7 +82,7 @@ function Work() {
   return (
     <div className='container mx-auto'>
         <div className='w-full relative text-center'>
-        <h1 className='text-[38vw] lg:text-[30vw] leading-none font-medium select-none background-text text-transparent [-webkit-text-stroke:0.3px_#d4d4d8]'>
+        <h1 className='text-[38vw] lg:text-[30vw] leading-none font-medium select-none background-text text-transparent text-white lg:[-webkit-text-stroke:0.3px_#d4d4d8]'>
         work
         </h1>
             <div className='absolute top-0 w-full h-full'>
