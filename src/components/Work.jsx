@@ -85,7 +85,7 @@ function Work() {
         <h1 className='mt-60 lg:mt-0 text-[40vw] lg:text-[30vw] leading-none font-medium select-none background-text text-transparent [-webkit-text-stroke:0.3px_#d4d4d8]'>
         work
         </h1>
-        <motion.div initial={{y: 50}} animate={{y: 0 }} transition={{duration: 1}} className='absolute left-[15rem] h-2 w-[70vw] bg-red-400'></motion.div>
+        <motion.div initial={{y: 50}} animate={{y: 0 }} transition={{duration: 1}} className='absolute left-[2rem] w-[86vw] lg:left-[15rem] h-2 lg:w-[70vw] bg-red-400'></motion.div>
             <div className='absolute top-0 w-full h-full'>
                 {images.map( (item , index) => (
                     item.isActive && <img className='absolute h-40 w-40 lg:h-60 object-cover lg:w-60 rounded-md -translate-x-1/2 -translate-y-1/2' style={{ top: item.top, left: item.left }} src={item.url} alt="" />
