@@ -11,7 +11,7 @@ const Product = ({val , mover , count }) => {
             <div className='dets w-1/3'>
                 <p className='mb-6 text-md'>{val.description}</p>
                 <div className='flex items-center gap-10'>
-                {val.live && <Button title='Get Started' />}
+                {val.live && <Button title='Explore' />}
                 <div className='hidden lg:flex'>{val.case && <Button title='Case Study' />}</div>
                 </div>
             </div>
