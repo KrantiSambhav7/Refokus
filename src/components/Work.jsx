@@ -82,9 +82,10 @@ function Work() {
   return (
     <div className='container mx-auto h-[40vh] lg:h-full'>
         <div className='w-full relative text-center'>
-        <h1 className='mt-60 lg:mt-0 text-[40vw] lg:text-[30vw] leading-none font-medium select-none background-text text-transparent  text-red-500'>
+        <h1 className='mt-60 lg:mt-0 text-[40vw] lg:text-[30vw] leading-none font-medium select-none background-text text-transparent [-webkit-text-stroke:0.3px_#d4d4d8] text-[antiquewhite]'>
         work
         </h1>
+ 
             <div className='absolute top-0 w-full h-full'>
                 {images.map( (item , index) => (
                     item.isActive && <img className='absolute h-40 w-40 lg:h-60 object-cover lg:w-60 rounded-md -translate-x-1/2 -translate-y-1/2' style={{ top: item.top, left: item.left }} src={item.url} alt="" />
