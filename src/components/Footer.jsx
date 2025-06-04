@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full text-[antiquewhite]'>
         <div className='container mx-auto py-10 flex gap-3 pl-4'>
             <div className='basis-1/2'>
                 <h1 className='text-7xl font-semibold leading-none tracking-tight '>refokus.</h1>

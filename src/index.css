@@ -2,24 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.background-text {
-  background-color: transparent;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-image: url("../Asset.avif");
-  background-size: 120%;
-  animation: anime 30s cubic-bezier(0.3 , 0 , 0.7 , 1) infinite; 
-}
-@keyframes anime {
-    0%{
-        background-position: 0% 0%;
-    }
-    50%{
-        background-position: 100% 100%;
-    }
-    100%{
-        background-position: 0% 0%;
-    }
-}
