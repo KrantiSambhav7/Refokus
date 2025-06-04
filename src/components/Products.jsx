@@ -47,7 +47,7 @@ const Products = () => {
     }
       
   return (
-    <div className='mt-4 relative'>
+    <div className='mt-10 lg:mt-4 relative'>
         {products.map( (item , index) => (
             <Product val={item} mover={mover} count={index} />
         ))}
