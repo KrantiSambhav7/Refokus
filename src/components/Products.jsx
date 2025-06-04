@@ -14,7 +14,7 @@ const Products = () => {
         {
           title: "TTR",
           description:
-            "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai and design.",
+            "We've created an interactive site using generative AI to allow users to engage with our thinking about AI",
           live: true,
           case: false,
         },
@@ -28,14 +28,14 @@ const Products = () => {
         {
           title: "Yahoo!",
           description:
-            "We enhanced the New York Fashion Week featuring holographic 3D models and an integrated web shop.",
+            "We enhanced the New York Fashion Week website and an integrated web shop.",
           live: true,
           case: true,
         },
         {
           title: "Rainfall",
           description:
-            "We crafted a website for Rainfall Ventures, that ultimately allows their team to update content regularly.",
+            "We crafted a website for Rainfall Ventures, allowing their team to update content regularly.",
           live: true,
           case: true,
         },
