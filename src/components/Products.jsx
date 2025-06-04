@@ -7,14 +7,14 @@ const Products = () => {
         {
           title: "Arqitel",
           description:
-            "With a continuous 3D animation, we showcase Arqitel approach and show how migration data translates into real estate.",
+            "With a continuous 3D animation, we showcase how migration data translates into real estate.",
           live: true,
           case: false,
         },
         {
           title: "TTR",
           description:
-            "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai, industry trends and design.",
+            "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai and design.",
           live: true,
           case: false,
         },
@@ -35,7 +35,7 @@ const Products = () => {
         {
           title: "Rainfall",
           description:
-            "We crafted a website for Rainfall Ventures, that ultimately allows their team to update content regularly and with ease.",
+            "We crafted a website for Rainfall Ventures, that ultimately allows their team to update content regularly.",
           live: true,
           case: true,
         },
@@ -47,7 +47,7 @@ const Products = () => {
     }
       
   return (
-    <div className='mt-20 relative'>
+    <div className='mt-4 relative'>
         {products.map( (item , index) => (
             <Product val={item} mover={mover} count={index} />
         ))}
