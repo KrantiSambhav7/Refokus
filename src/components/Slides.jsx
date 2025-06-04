@@ -28,7 +28,7 @@ const Slides = () => {
         ],
       ];
   return (
-    <div className='mt-8 py-20 w-full relative overflow-hidden'>
+    <div className='mt-2 py-20 w-full relative overflow-hidden'>
         {images.map( (item , index) => (
             <Slide direction={index == 0 ? "left" : "right"} val={item} />
         ))}

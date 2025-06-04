@@ -12,7 +12,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full h-full bg-black text-white font-["Satoshi variable"] '>
+    <div className=' h-full bg-black w-full overflow-x-hidden text-white font-["Satoshi variable"] '>
       <Navbar />
       <Work />
       <Stripes />

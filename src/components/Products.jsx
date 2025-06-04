@@ -21,21 +21,21 @@ const Products = () => {
         {
           title: "YIR 2022",
           description:
-            "Our second year was filled with great events, exciting projects, awards and amazing people - so we made another showcase to celebrate.",
+            "Our second year was filled with great events, exciting projects, awards and amazing people.",
           live: true,
           case: false,
         },
         {
           title: "Yahoo!",
           description:
-            "We enhanced the New York Fashion Week, by creating a fully digital AR fashion experience for Yahoo and Maisie Wilen, featuring holographic 3D models and an integrated web shop.",
+            "We enhanced the New York Fashion Week featuring holographic 3D models and an integrated web shop.",
           live: true,
           case: true,
         },
         {
           title: "Rainfall",
           description:
-            "We crafted a website for Rainfall Ventures, developing prototypes and custom code that ultimately allows their team to update content regularly and with ease.",
+            "We crafted a website for Rainfall Ventures, that ultimately allows their team to update content regularly and with ease.",
           live: true,
           case: true,
         },
@@ -47,7 +47,7 @@ const Products = () => {
     }
       
   return (
-    <div className='mt-32 relative'>
+    <div className='mt-20 relative'>
         {products.map( (item , index) => (
             <Product val={item} mover={mover} count={index} />
         ))}
