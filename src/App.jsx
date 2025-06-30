@@ -15,7 +15,7 @@ const App = () => {
     <div className=' h-full bg-black w-full overflow-x-hidden text-white font-["Satoshi variable"] '>
       <Navbar />
       <Work />
-      <Stripes />
+         <Stripes />
       <Products />
       <Slides />
       <Cards />
